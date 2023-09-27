@@ -139,25 +139,21 @@ a{
 
 .containerAutoText{ display: inline-block;}
 
-.text{
+.text {
   font-size: 50px;
   font-weight: 600;
-  white-space: nowrap;
-  border-right: 5px solid;
-  overflow: hidden;
-  width: 100%;
-  animation: 
-    typing 2.5s steps(13),
-    cursor .4s step-end infinite alternate;
 }
 
-@keyframes cursor{
-  50%{ border-color: transparent}
+.blinking-cursor::after {
+  content: '|';
+  animation: blink 1s step-end infinite alternate;
 }
 
-@keyframes typing{
-  from { width: 0 }
+@keyframes blink {
+  from, to { color: transparent }
+  50% { color: black }
 }
+
 
 
 
@@ -437,4 +433,18 @@ table, th, td {
 
 #Project_4{
   padding-top: 100px;
+}
+
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;  /* This ensures it stays below the content */
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 2;  /* This ensures it's above the particles background */
 }
