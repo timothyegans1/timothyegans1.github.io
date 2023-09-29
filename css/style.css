@@ -134,7 +134,7 @@ a{
 .introduction-image img {
     width: 100%;
     height: auto;
-    scale: 2;
+    scale: 2.5;
 }
 
 .highlight {
@@ -626,4 +626,8 @@ main{
 @media (max-width: 1530px) {
   
   
+}
+
+.art{
+  font-size: 14px;
 }
