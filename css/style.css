@@ -448,3 +448,4 @@ table, th, td {
   position: relative;
   z-index: 2;  /* This ensures it's above the particles background */
 }
+
