@@ -623,8 +623,25 @@ main{
   width: 100%;
 }
 
-@media (max-width: 1530px) {
-  
+@media screen and (max-width: 1530px) {
+  .right-section {
+    padding-right: 50px;
+  }
+    
+  .rectangle {
+    position: static;
+    width: 100%; /* Make rectangles full width */
+    margin-bottom: 20px; /* Add some space between rectangles */
+  }
+
+  .image1, .image2, .image3 {
+    width: 100%; /* Take full width of the container */
+    height: auto; /* Let the height adjust naturally */
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
   
 }
 
