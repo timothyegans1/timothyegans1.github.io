@@ -632,6 +632,15 @@ main{
   
 }
 
+@media screen and (max-width: 1800px) {
+
+  .image1, .image2, .image3 {
+    scale: .75;
+  }
+
+  
+}
+
 .art{
   font-size: 14px;
 }
