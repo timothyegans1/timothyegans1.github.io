@@ -54,7 +54,7 @@ a{
     transform: scale(3);
     display: block;
     margin-left: 4%;
-}
+  }
 
 
   nav img{
@@ -389,6 +389,7 @@ table, th, td {
   margin: 0 auto; /* Center the image */
   display: block;
   position: relative;  
+  
   width: 150px;       /* Set the width based on the largest rectangle (image1) */
   height: 150px;      /* Set the height based on the tallest rectangle (image2 and image3) */
 }
@@ -415,7 +416,6 @@ table, th, td {
   right: 8%;
   transform: translate(50%, -50%);
   z-index: 2;
-  
 }
 
 .image2 {
@@ -644,3 +644,109 @@ main{
 .art{
   font-size: 14px;
 }
+
+
+
+.AlignText{
+  margin-top: 150px;
+}
+
+.specialCase{
+  scale: 1.5;
+}
+
+
+@media screen and (max-width: 1030px) {
+  .project-section, .two-part-section .left-section, .two-part-section .right-section, .project-image, .project-info, .info {
+      width: 100%;
+  }
+  .right-section {
+    flex-basis: 100%; /* Takes up 70% of the container width */
+    padding-right: 0px;
+    padding-left: 20px; /* Adds some space to the left */
+    margin-top: 100px;
+  }
+  .left-section{
+    margin-top:100px;
+    margin-left: -100px;
+
+  }
+  .project-info, .project-title{
+    margin-left: -175px;
+  }
+
+  .space{
+    margin-top: 250px;
+  }
+
+}
+
+@media screen and (max-width: 1030px) {
+  .project-details {
+      flex-direction: column;
+  }
+
+  .image1, .image2, .image3 {
+  
+    border: #004471 solid 12px;
+    
+  }
+
+}
+
+@media screen and (max-width: 1030px) {
+  .project-section, .two-part-section .left-section, .two-part-section .right-section, .project-image, .project-info, .info {
+      width: 100%;
+  }
+
+  .project-details {
+      flex-direction: column;
+  }
+
+  .project-info, .project-image {
+    width: 100%;
+  }
+
+  .project-image {
+      display: flex;
+      margin-left: -150px;
+      flex-wrap: wrap;
+      justify-content: center; /* To center the images if there are less than maximum per row */
+  }
+
+  .rectangle {
+      flex: 0 1 calc(33.333% - 10px); /* For three images per row and 10px is a gap */
+      margin: 5px; /* Half of the gap */
+  }
+
+
+
+}
+
+@media screen and (max-width: 1280px) {
+  .project-image {
+    margin-right: 150px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .two-columns {
+    flex-direction: column;
+    align-items: center; /* centers the elements */
+  }
+
+  .two-columns > div {
+    width: 100%; /* ensures both the image and the about content take full width */
+  }
+
+  img{
+    scale: .75;
+  }
+
+}
+
+.two-columns {
+  display: flex;
+}
+
