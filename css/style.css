@@ -184,6 +184,8 @@ a{
   overflow: hidden; /* Hide elements that go outside the card boundaries */
   cursor: pointer;
   transition: transform .2s, background-color .2s;; /* Smooth transition */
+  border-radius: 2.5px;
+  height: 550px;
 }
 
 .project-card img {
@@ -816,7 +818,7 @@ main{
 
 .media-item a:hover {
   background-color: #ffffff;
-  transform: scale(110%) ;
+  transform: scale(105%) ;
   border-radius: 20px;
   box-shadow: 0 32px 75px #000000;
 }
