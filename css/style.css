@@ -813,3 +813,10 @@ main{
   align-items: center;     /* Vertical centering */
   width: 100%;             /* Ensures the link takes up the full space of its parent */
 }
+
+.media-item a:hover {
+  background-color: #ffffff;
+  transform: scale(110%) ;
+  border-radius: 20px;
+  box-shadow: 0 32px 75px #000000;
+}
