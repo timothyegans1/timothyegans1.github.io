@@ -760,7 +760,7 @@ main{
 
 /* Styling for each media block */
 .media-block {
-  width: 40%;
+  width: 35%;
   border: none;  /* Removing borders, if any */
 }
 
@@ -768,6 +768,7 @@ main{
 .section-title {
   margin-bottom: 15px;
   text-align: center;  /* Centering the title */
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* Styling for each media item */
@@ -777,7 +778,7 @@ main{
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: #6C63FF 0px 0px 10px;  /* Adding a shadow effect */
+  border: #6C63FF solid 1px;
 }
 
 /* Styling for images within each media item */
@@ -788,13 +789,20 @@ main{
   margin-right: 10px;
 }
 
+.media-item h3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+}
 .media-P{
   margin-bottom: -17px;
   margin-left: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
 }
 
 .media-G{
   margin-bottom: -17px;
+  font-family: 'Noto Sans KR', sans-serif;
   margin-left: 140px;
 }
 
