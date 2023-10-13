@@ -11,10 +11,10 @@
 }
 
 :root[data-theme="dark"]{
-  --page-bg: #1E1E1E;
+  --page-bg: #202020;
   --switch-bg: #515153;
-  --switch-circle-bg: #7190FF;
-  --icon-sun: #B1B0B5;
+  --switch-circle-bg: #6C63FF;
+  --icon-sun: #727274;
   --icon-moon: #DCE3FF;
   --text-p:#ffffff;
   --nav-bar:rgba(255, 254, 254, 0.06) ;
@@ -668,7 +668,8 @@ main{
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-weight: lighter;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: var(--text-p);
 }
 
 .Icons8{
@@ -850,6 +851,7 @@ main{
   margin-bottom: 15px;
   text-align: center;  /* Centering the title */
   font-family: 'Noto Sans KR', sans-serif;
+  color: var(--text-p);
 }
 
 /* Styling for each media item */
@@ -873,6 +875,7 @@ main{
 .media-item h3 {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: bolder;
+  color: var(--text-p);
 }
 .media-P{
   margin-bottom: -17px;
@@ -896,8 +899,9 @@ main{
 }
 
 .media-item a:hover {
-  background-color: #ffffff;
+  background-color: var(--page-bg);
   transform: scale(105%) ;
   border-radius: 20px;
   box-shadow: 0 32px 75px #000000;
 }
+
