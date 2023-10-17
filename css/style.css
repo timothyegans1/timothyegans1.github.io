@@ -24,7 +24,7 @@
 
 :root{
   --default-border-radius: 8px;
-  --default-transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out, fill .3s ease-in-out, transform .3s ease-in-out;
+  --default-transition: color .3s ease-in-out, background-color 1s ease-in-out, border-color .3s ease-in-out, fill .3s ease-in-out, transform .3s ease-in-out;
 }
 
 *{
@@ -182,28 +182,28 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4%; /* Adjust as needed */
-    max-width: 1200px; /* Adjust as needed */
+    padding: 4%; 
+    max-width: 1200px; 
     margin: auto;
     margin-top: 100px;
     font-size: larger;
 }
 
 .introduction-text h1 {
-    margin-bottom: 50px; /* Adjust as necessary */
+    margin-bottom: 50px; 
 }
 
 .introduction-text p {
-    line-height: 2; /* Adjust if needed */
-    margin-bottom: 20px; /* Adjust if needed */
+    line-height: 2; 
+    margin-bottom: 20px; 
 }
 
 .introduction-text {
-    width: 45%; /* Adjust as needed */
+    width: 45%; 
 }
 
 .introduction-image {
-    width: 45%; /* Adjust as needed */
+    width: 45%; 
 }
 
 .introduction-image img {
@@ -417,11 +417,12 @@ body {
 }
 
 .project-title {
-  font-size: 2rem; /* Adjust as needed */
+  font-size: 2rem; 
   text-align: left;
   margin-bottom: 20px;
   font-weight: 100px;
   font-family: 'Noto Sans KR', sans-serif;
+  color: var(--text-p);
 }
 
 .project-details {
@@ -433,10 +434,11 @@ body {
 }
 
 .project-info {
-  width: 20%; /* Adjust as needed */
+  width: 20%; 
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px; /* Space between cells */
+  color: var(--text-p);
 }
 
 .project-info .info p {
@@ -730,6 +732,11 @@ main{
 
 .AlignText{
   margin-top: 150px;
+  color: var(--text-p);
+}
+
+.left-section h2{
+  color: var(--text-p);
 }
 
 .specialCase{
