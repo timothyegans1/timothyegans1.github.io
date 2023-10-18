@@ -231,7 +231,7 @@ h1{
 
 @keyframes blink {
   from, to { color: transparent }
-  50% { color: black }
+  50% { color: var(--text-p) }
 }
 
 
