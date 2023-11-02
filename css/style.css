@@ -67,7 +67,7 @@ h1{
 
   .nav-container {
     width: 100%;
-    border-bottom: 1px solid rgba(107, 101, 101, 0.06); /* 0.5 is the alpha (opacity) */
+    border-bottom: 1px solid rgba(107, 101, 101, 0.06); 
     border-bottom: 1px solid var(--nav-bar); /* 0.5 is the alpha (opacity) */
     margin: 0;
     padding: 0;
