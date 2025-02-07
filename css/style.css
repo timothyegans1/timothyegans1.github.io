@@ -828,6 +828,8 @@ main{
     width: 100%; /* ensures both the image and the about content take full width */
   }
 
+  
+
   img{
     scale: .75;
   }
