@@ -828,7 +828,9 @@ main{
     width: 100%; /* ensures both the image and the about content take full width */
   }
 
-  
+  .nav-links ul li{
+    margin-right: 20px;
+  }
 
   img{
     scale: .75;
